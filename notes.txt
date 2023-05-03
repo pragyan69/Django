@@ -16,3 +16,30 @@ we will create two folders
 2 templates this folderwill be usaed to satored the templates 
 
 bnow in the settings file of the hello , at the end we will find the static filder link , now read the documentation of it 
+
+
+the static folder can be seen by the users , so we cannot put sensetive files in this folder
+
+
+MODELS 
+
+in django we can create models that will be stored in the sql databases
+to create it go to the app folder and click on the models'
+
+create the models in the form of class
+
+
+to add in the database we have to do the following
+
+Django insert data from w3 schools
+
+
+commands
+
+The manage.py make migrations look for the changes in the files and let it know to the project , it basically looks at the changes made in the app folder of the file
+
+python manage.py migrate = it will look for the tables for authentication , these authentication comes by default
+
+we have to create a createsuperuser comomand to add the username and the password
+
+ 
