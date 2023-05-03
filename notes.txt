@@ -1,0 +1,18 @@
+basically in the django project we work in two fieds , the one i the projext ad the other is the app,
+
+the hello is the project
+
+the home is the app , where we will make all the front end
+
+in the views filw , we will add the files that can be viewed by the User
+
+in the urls of homew we will add all the links
+in the urls of the hello we will add all the links so that the urls of  the home can be called by it 
+
+
+we will create two folders 
+
+1 static  =- this will store asll the static images of he file , it can be viewed by the User
+2 templates this folderwill be usaed to satored the templates 
+
+bnow in the settings file of the hello , at the end we will find the static filder link , now read the documentation of it 
