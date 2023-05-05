@@ -21,5 +21,6 @@ def option1(request):
 def option2(request):
     return render(request , 'option2.html')
 def other_options(request):
-    return render(request , 'other_options.html')
+    #return render(request , 'other_options.html')
+    return render(request , 'base2.html')
     
